@@ -1,0 +1,9 @@
+<ul class="product-thumbnails">
+  <li *ngFor="let product of products">
+    <a routerLink="/product/{{product.code}}" title="{{product.name}}">
+      <img src="{{product.thumbnail_url}}" width="{{product.width}}" height="{{product.height}}" srcset="{{product.small_image_url}} 2x"
+        alt="{{product.name}}&nbsp;&ndash;&nbsp;{{product.image_type}}" />
+      {{product.name}}
+    </a>
+  </li>
+</ul>
