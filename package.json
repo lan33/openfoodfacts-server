@@ -44,9 +44,9 @@
     "@bower_components/leaflet.markercluster": "Leaflet/Leaflet.markercluster#>=1.0.0",
     "@bower_components/osmtogeojson": "tyrasd/osmtogeojson#^2.2.12",
     "@bower_components/papaparse": "mholt/papaparse#^4.3.6",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^2.3.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^2.4.0",
     "yarn": "^1.2.1"
   },
