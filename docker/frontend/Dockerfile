@@ -20,7 +20,7 @@ RUN yarn install
 # Run gulp
 RUN yarn run build
 
-FROM nginx:mainline-alpine
+FROM nginx:1.25.4-alpine3.18
 WORKDIR /opt/product-opener
 COPY --from=builder /opt/product-opener/html/ /opt/product-opener/html/
 COPY --from=builder /opt/product-opener/node_modules/@bower_components/ /opt/product-opener/node_modules/@bower_components/
